@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <title>Jonathan Lassiter's IPND Notes</title>
+  <link rel="stylesheet" href="notes.css">
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <h1> Lassiter's Intro to Programming Notes</h1>
+
+  <div class="intro">
+    <h2 class="introheader">Introduction</h2>
+      <p>
+        This Webpage is intended for the author to practice what he has learned in the online course,
+        <a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">
+          Intro to Programming Nano Degree
+        </a>, he is taking offered by <a href="Udacity.com">Udacity</a>. 
+        This is for his personal use only. Now let me show you what he has learned!
+      </p>
+    </div>
+
+  <div id="toc_container">
+    <p class="toc_title">Table of Contents</p>
+    <ol class="toc_list">
+      <li><a href="#intro">Introduction</a></li>
+      <li><a href="#part1header">Learn to Code</a></li>
+      <li><a href="#part2header"> Making a Stylish Webpage</a></li>
+         <li><a href="#importanttakeaways2">Important Takeaways</a></li>
+         <li><a href="#AddingCssStyling">CSS Summary and Reference</a></li>
+      <li><a href="#part3header">Code Your Own Quiz</a></li>
+      <li><a href="#part4header"> Create a Movie Website</a></li>
+      <li><a href="#part5header">Discover Your Path</a></li>
+      <li><a href="#part6header"> Specialization</a></li>
+      <li><a href="#importantelements">Important Elements</a></li>
+    </ol>
+  </div>
+
+  <div class="part1">
+    <h2 class="part1header" id="part1header">Learn to Code</h2>
+    <article class="pnorm">
+     <h4>This is the basic structure of an HTML document.</h4> 
+      <div>
+        <img class="HTMLdocstructure" src="images/example-doc-structure-ipnd.png" alt="IT is supposed to work!">
+      </div>
+      <a  href="https://classroom.udacity.com/nanodegrees/nd000/parts/b920608d-be3c-4d5f-851f-6ab3eeb8997b/modules/8f2b6689-b7fd-4c54-9c13-99bb29278990/lessons/404b6925-2a6e-4617-8818-3bd890906f75/concepts/e40b5612-4666-46d5-aaab-581d28d00daf">This</a>      is the source on udacity explaining in detail.
+    </article>
+    <div>
+      <h4>The World Wide Web</h4>
+      <p class="pnorm">
+        The web is composed largely of HTML documents. HTML stands for HyperText Markup Language and is the language the browsers
+        use to interpret web pages. The components of the web include the client (your computer and browser), the Internet,
+        and servers. The client and servers interact through something called the Hypertext Transfer Protocol (HTTP).
+      </p>
+      <h4>Basic HTML Elements</h4>
+      <p class="pnorm">
+        HTML elements are what we use to tell a web browser how to display content on a web page. Most HTML elements consist of an
+        opening and a closing tag with some content between them.
+      </p>
+      <div class="code">
+        <div class="xmp">
+          <XMP><b>text</b></XMP> Makes the 'text' content bold
+          <XMP><em>text</em></XMP> Makes the 'text' content italic  
+        </div>  
+      </div>
+      <h4>HTML Attributes</h4>
+      <p>
+        Some elements accept additional values called attributes in their opening tags. Attributes provide additional information
+        to the browser. For example, the anchor tag takes an attribute called <em><strong>href</strong></em> that
+        defines a URL to link to.
+      </p>
+      <div class="code">
+          <XMP><a href="url">link</a></XMP> Creates a hyperlink to the href attribute value url and names it link
+          <XMP><img src="url" alt="text"></XMP> Displays the image hosted at the src attribute value "url" (this can also be a path
+          to a local file on your computer). If the image cannot be displayed, then the alt attribute value "text" is shown.
+      </div>
+    </div>
+  </div>
+
+  <div class="part2">
+    <h2 class="part2header" id="part2header">Making a Stylish Webpage</h2>
+    <p>
+     <em>"Front end web development is inherently visual. Any changes you make will automatically be visible inside the browser."</em><br>
+      <p> 
+        <b>HTML</b>, <b>CSS</b>, and <b>Javascript</b> are the three languages you use to develop websites. All we will work
+        with is HTML and CSS. <br> 
+      </p>
+    <p>
+      A good way to explain these concepts is to think of a website is like its a house:
+        <ul class="pnorm">
+          <li><b>HTML</b> files are like the layout. Where the walls are placed, which room is your bathroom, kitchen, living room.</li>
+          <li><b>CSS</b> files are the styling of your house. What color are the walls? What decorations do you have up</li>
+          <li><b>Javascript</b> are the interactive components. Like the garage door opener or your tv remote. They change some element of the house(webpage)</li>
+        </ul>
+    </p>
+    <h3 id="importanttakeaways2">Important Takeaways from first half of Lesson 2:</h3>
+    <p>
+      <ul>
+        <li>HTML and CSS are both "languages"</li>
+        <li>HTML controls the "structure" of a web page</li>
+        <li>CSS controls the "style" of a web page (how it looks).</li>
+        <li>When programmers talk about the "DOM" (Document Object Model) they are talking about the tree-like structure of a
+          page.</li>
+      </ul>
+      <p class="pnorm">To learn more about what a "tree-like structure" means, read the first two paragraphs of the
+        <a href="http://en.wikipedia.org/wiki/Tree_structure"> Wikipedia article on Tree Structures.</a> <br>
+        To rewatch the video
+        explaining the relationship between <b>HTML</b>,<b>CSS</b>, and <b>DOM</b> click
+        <a href=https://youtu.be/tSv2KIF7uE4>here</a>
+      </p>
+    </p>
+    <h3>Boxes, Grids and Rules</h3>
+
+    <p class="pnorm">
+      Thinking of things in terms of boxes helps us rearrange things if we decide to give users a different excperience<br> 
+      using the div tag you can make your boxes aroungd code to help arrange your page.<br> By adding a "class" attribute
+      to your div it will help you apply style later. Think of it as a label for your box like "kitchen"<br> Make sure to
+      give the class attrubutes helpful not like "box1", "box2", "box3"
+    </p>
+
+    <h2 id="AddingCssStyling">Lesson 4: Adding CSS Styling</h2>
+
+    <div>
+      <p>
+        <a href="https://classroom.udacity.com/nanodegrees/nd000/parts/c166b0b6-d5c7-4cc9-9595-2b7a1c7b75e1/modules/01b5b80f-8256-4126-bf54-b11f809acd88/lessons/d48f9f5d-8b12-4a12-b59c-2c5c909ec99c/concepts/3b843526-d272-434c-a13b-456cd0ecb3b2">Here</a>        is a link for CSS Summary and Reference
+      </p>
+
+      <p class="pnorm">
+        <a href="https://classroom.udacity.com/nanodegrees/nd000/parts/c166b0b6-d5c7-4cc9-9595-2b7a1c7b75e1/modules/01b5b80f-8256-4126-bf54-b11f809acd88/lessons/d48f9f5d-8b12-4a12-b59c-2c5c909ec99c/concepts/2cb41ea2-f718-49ab-85f2-ed0146c4292f">Here</a>        is a link for Box Sizing and Positioning Summary
+    </div>
+  </div>
+
+
+  <div class="part4">
+    <h2 class="part4header">Create a Movie Website</h2>
+    <div class="Lesson">
+      <div class="Section">
+        <div class="supporting-info"></div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="part5">
+    <h2 class="part5header">Discover Your Path</h2>
+    <div class="Lesson">
+      <div class="Section">
+        <div class="supporting-info"></div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="part6">
+    <h2 class="part6header">Specialization</h2>
+    <div class="Lesson">
+      <div class="Section">
+        <div class="supporting-info"></div>
+      </div>
+    </div>
+
+  </div>
+  <div class="importantelements">
+    <table>
+      <tr>
+        <th id="importantelements" colspan="2">Important Elements</th>
+      </tr>
+      <tr>
+        <td><XMP><b></b></XMP></td>
+        <td> This tag makes content <b>bold</b></td>
+      </tr>
+      <tr>
+        <td> <XMP><em></em></XMP></td>
+        <td> This tag makes content <em>italic</em></td>
+      </tr>
+      <tr>
+        <td><XMP><br></XMP></td>
+        <td>This tag moves following content to new line</td>
+      </tr>
+      <tr>
+        <td><XMP><p></p></XMP></td>
+        <td>This tag makes content its own paragraph. "Block" styled container</td>
+      </tr>
+      <tr>
+        <td><XMP><span></span></XMP></td>
+        <td>This tag is an "inline" container </td>
+      </tr>
+      <tr>
+        <td><XMP><div></div></XMP></td>
+        <td>This is a "block" style container</td>
+      </tr>
+      <tr>
+        <td><XMP><strong></strong></XMP></td>
+        <td> Makes content strong (similar to bold)</td>
+      </tr>
+    </table> 
+  </div> <br>
+
+      <a href="https://www.w3schools.com/tags/default.asp">Here</a> is a list of all HTML tags.
+
+</body>
+</html>

@@ -1,0 +1,149 @@
+/* This is a CSS comment. Notice that CSS comments are
+enclosed by different characters than HTML comments. */
+
+/* CSS allows you to give your page style (colors, shapes, fonts, etc.)
+You can apply CSS elements to entire HTML classes. Review Lesson 1.3
+if you need a refresher about how to do this. */
+
+/* Chosen Color Pallete:JET #353535, White #FFFFFF, Light Gray #D2D7DF, 
+Black Shadows #BDBBB0(or O?),Rocket Metallic #8A897C*/
+
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+ }
+ 
+ 
+ .intro{
+  border-top: 4px solid #8A897C;
+  margin:5% auto;
+  border: 4px solid #8A897C;
+  border-radius: 5px;
+  background-color: #353535;
+
+}
+.introheader{
+  border-bottom: 4px solid #8A897C;
+  border-radius: 5px;
+  margin-top: -2px;
+  background-color: #353535;
+}
+
+ #toc_container {
+     position: static;;
+     background: #D2D7DF none repeat scroll 0 0;
+     border: 5px solid #8A897C;
+     border-radius: 10px;
+     display: table;
+     font-size: 95%;
+     margin-bottom: 10%;
+     padding: 1%;
+     max-width: 50%;
+     margin: 0px auto 25px auto;
+     
+
+ }
+ 
+ .toc_title {
+   display:table-header-group;
+     text-align:center;
+     color:#353535;
+     
+ }
+ 
+ #toc_container li, #toc_container ul, #toc_container ol ul li{
+     list-style: outside none none !important;
+     
+ }
+ #toclisthover{
+   background-color:#8A897C;
+   border: 5px dotted #bdbbb0;
+ }
+
+ /*{
+     margin: 8px;
+     border: red solid 2px;
+     background-color: rgba(0,0,0,0)
+ }*/
+
+ .HTMLdocstructure{
+   max-width: 50%;
+   height: auto;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ h1{
+   text-align: center;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   color: #FFFFFF;
+   border: 8px solid #8A897C;
+   border-radius: 5px
+   
+ }
+ h2, h3, h4, h5 ,h6 {
+   text-align: center;
+   font-family: Tahoma, sans-serif;
+   
+ }
+ body{
+  background-color: #353535;
+  color:#FFFFFF;
+  margin:0 5% auto 5%;
+ }
+ p{
+   text-indent:50px;
+   padding-bottom:50px;
+ }
+ div.code{
+  border-left: 6px solid red;
+  background-color: #8A897C;
+  border-radius:5px;
+  max-width: 50%;
+  margin: 0 auto;
+  
+ }
+
+ a:link{
+   color:red;
+ }
+ a:visited{
+   color: red;
+ }
+
+ a:hover{
+   color:yellow
+ }
+
+ .part4,.part5,.part6{
+   visibility: hidden;
+ }
+
+ .importantelements{
+   border:2px solid #D2D7DF;
+   text-align: center;
+   margin:auto 5% auto 10%
+ }
+
+ .intro{
+   border-top: 4px solid #8A897C;
+   margin:5% auto;
+   border: 4px solid #8A897C;
+   border-radius: 5px;
+   background-color: #353535;
+
+ }
+ .introheader{
+   border-bottom: 4px solid #8A897C;
+   border-radius: 5px;
+   margin-top: -2px;
+   background-color: #353535;
+ }
+
+ .pnorm{
+   border-bottom:3px solid #8A897C;
+ }
