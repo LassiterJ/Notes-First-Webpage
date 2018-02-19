@@ -59,10 +59,12 @@
         opening and a closing tag with some content between them.
       </p>
       <div class="code">
-        <div class="xmp">
-          <XMP><b>text</b></XMP> Makes the 'text' content bold
-          <XMP><em>text</em></XMP> Makes the 'text' content italic  
-        </div>  
+       
+          <code class="examplecode">&lt;b&gt;text&lt;/b&gt;</code> 
+          <p class="pcode">Makes the '<b>text</b>' content bold</p>
+          <code class="examplecode">&lt;em&gt;text&lt;/em&gt;</code> 
+          <p class="pcode">Makes the '<em>text</em>' content italic</p>
+        
       </div>
       <h4>HTML Attributes</h4>
       <p>
@@ -71,9 +73,12 @@
         defines a URL to link to.
       </p>
       <div class="code">
-          <XMP><a href="url">link</a></XMP> Creates a hyperlink to the href attribute value url and names it link
-          <XMP><img src="url" alt="text"></XMP> Displays the image hosted at the src attribute value "url" (this can also be a path
-          to a local file on your computer). If the image cannot be displayed, then the alt attribute value "text" is shown.
+        <pre><code class="examplecode">&lt;a href="url"&gt;link&lt;/a&gt;</code></pre>
+        <p class="pcode">Creates a hyperlink to the href attribute value url and names it link</p>
+        <pre><code class="examplecode">&lt;img src="url" alt="text"&gt;</code></pre>
+        <p class="pcode">Displays the image hosted at the src attribute value "url" (this can also be a path to a local file on your computer).
+          If the image cannot be displayed, then the alt attribute value "text" is shown.
+        </p>
       </div>
     </div>
   </div>
@@ -81,21 +86,22 @@
   <div class="part2">
     <h2 class="part2header" id="part2header">Making a Stylish Webpage</h2>
     <p>
-     <em>"Front end web development is inherently visual. Any changes you make will automatically be visible inside the browser."</em><br>
+     <em>"Front end web development is inherently visual. Any changes you make will automatically be visible inside the browser."</em>
       <p> 
         <b>HTML</b>, <b>CSS</b>, and <b>Javascript</b> are the three languages you use to develop websites. All we will work
         with is HTML and CSS. <br> 
       </p>
-    <p>
-      A good way to explain these concepts is to think of a website is like its a house:
-        <ul class="pnorm">
-          <li><b>HTML</b> files are like the layout. Where the walls are placed, which room is your bathroom, kitchen, living room.</li>
-          <li><b>CSS</b> files are the styling of your house. What color are the walls? What decorations do you have up</li>
-          <li><b>Javascript</b> are the interactive components. Like the garage door opener or your tv remote. They change some element of the house(webpage)</li>
-        </ul>
-    </p>
+    <div>
+      <strong>A good way to explain these concepts is to think of a website is like its a house:</strong>
+      <ul class="pnorm">
+        <li><b>HTML</b> files are like the layout. Where the walls are placed, which room is your bathroom, kitchen, living room.</li>
+        <li><b>CSS</b> files are the styling of your house. What color are the walls? What decorations do you have up</li>
+        <li><b>Javascript</b> are the interactive components. Like the garage door opener or your tv remote. They change some
+          element of the house(webpage)</li>
+      </ul>
+    </div>
     <h3 id="importanttakeaways2">Important Takeaways from first half of Lesson 2:</h3>
-    <p>
+    <div>
       <ul>
         <li>HTML and CSS are both "languages"</li>
         <li>HTML controls the "structure" of a web page</li>
@@ -109,7 +115,7 @@
         explaining the relationship between <b>HTML</b>,<b>CSS</b>, and <b>DOM</b> click
         <a href=https://youtu.be/tSv2KIF7uE4>here</a>
       </p>
-    </p>
+    </div>
     <h3>Boxes, Grids and Rules</h3>
 
     <p class="pnorm">
@@ -128,78 +134,67 @@
 
       <p class="pnorm">
         <a href="https://classroom.udacity.com/nanodegrees/nd000/parts/c166b0b6-d5c7-4cc9-9595-2b7a1c7b75e1/modules/01b5b80f-8256-4126-bf54-b11f809acd88/lessons/d48f9f5d-8b12-4a12-b59c-2c5c909ec99c/concepts/2cb41ea2-f718-49ab-85f2-ed0146c4292f">Here</a>        is a link for Box Sizing and Positioning Summary
-    </div>
+      </p>
+      </div>
   </div>
 
+
+  <div class="part3">
+    <h2 id="#part3header" class="part3header">Create a Movie Website</h2>
+  </div>
 
   <div class="part4">
-    <h2 class="part4header">Create a Movie Website</h2>
-    <div class="Lesson">
-      <div class="Section">
-        <div class="supporting-info"></div>
-      </div>
-    </div>
-
+    <h2 id="#part4header" class="part4header">Create a Movie Website</h2>
   </div>
 
-
   <div class="part5">
-    <h2 class="part5header">Discover Your Path</h2>
-    <div class="Lesson">
-      <div class="Section">
-        <div class="supporting-info"></div>
-      </div>
-    </div>
-
+    <h2 id="#part5header" class="part5header">Discover Your Path</h2>
   </div>
 
 
   <div class="part6">
-    <h2 class="part6header">Specialization</h2>
-    <div class="Lesson">
-      <div class="Section">
-        <div class="supporting-info"></div>
-      </div>
-    </div>
-
+    <h2 id="#part6header" class="part6header">Specialization</h2>
   </div>
+
   <div class="importantelements">
     <table>
       <tr>
         <th id="importantelements" colspan="2">Important Elements</th>
       </tr>
       <tr>
-        <td><XMP><b></b></XMP></td>
+        <td><pre><code>&lt;b&gt;&lt;/b&gt;</code></pre></td>
         <td> This tag makes content <b>bold</b></td>
       </tr>
       <tr>
-        <td> <XMP><em></em></XMP></td>
+        <td> <pre><code>&lt;em&gt;&lt;/em&gt;</code></pre></td>
         <td> This tag makes content <em>italic</em></td>
       </tr>
       <tr>
-        <td><XMP><br></XMP></td>
+        <td><pre><code>&lt;br&gt;</code></pre></td>
         <td>This tag moves following content to new line</td>
       </tr>
       <tr>
-        <td><XMP><p></p></XMP></td>
+        <td><pre><code>&lt;p&gt;&lt;/p&gt;</code></pre></td>
         <td>This tag makes content its own paragraph. "Block" styled container</td>
       </tr>
       <tr>
-        <td><XMP><span></span></XMP></td>
+        <td><pre><code>&lt;span&gt;&lt;/span&gt;</code></pre></td>
         <td>This tag is an "inline" container </td>
       </tr>
       <tr>
-        <td><XMP><div></div></XMP></td>
+        <td><pre><code>&lt;div&gt;&lt;/div&gt;</code></pre></td>
         <td>This is a "block" style container</td>
       </tr>
       <tr>
-        <td><XMP><strong></strong></XMP></td>
+        <td><pre><code>&lt;strong&gt;&lt;/strong&gt;</code></pre></td>
         <td> Makes content strong (similar to bold)</td>
       </tr>
     </table> 
-  </div> <br>
+  </div>
+  <p>
+    <a href="https://www.w3schools.com/tags/default.asp">Here</a> is a list of all HTML tags.
+  </p>
 
-      <a href="https://www.w3schools.com/tags/default.asp">Here</a> is a list of all HTML tags.
 
 </body>
 </html>
